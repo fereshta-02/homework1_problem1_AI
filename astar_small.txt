@@ -1,0 +1,26 @@
+# ===== KİÇİK A* TEST QRAFI =====
+# 8 düyün, sadə struktura
+
+# Vertices: id,cell_id
+Vertex,1,11
+Vertex,2,12
+Vertex,3,22
+Vertex,4,32
+Vertex,5,33
+Vertex,6,23
+Vertex,7,21
+Vertex,8,31
+
+# Edges: u,v,weight (non-negative)
+Edge,1,2,5
+Edge,2,3,4
+Edge,3,4,3
+Edge,2,7,6
+Edge,7,6,2
+Edge,6,5,4
+Edge,4,5,2
+Edge,3,6,3
+
+# Source və Destination
+Source,1
+Destination,5
